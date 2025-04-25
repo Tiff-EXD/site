@@ -35,12 +35,12 @@ function updateUI() {
 
 function announceWinner(player) {
   const messageElement = document.getElementById('gameMessage');
-  messageElement.innerText = `Player ${player} Wins!`;
+  messageElement.innerText = `Игрок ${player} выйграл!`;
 }
 
 function announceDraw() {
   const messageElement = document.getElementById('gameMessage');
-  messageElement.innerText = 'Game Draw!';
+  messageElement.innerText = 'Ничья!';
 }
 
 const winConditions = [
@@ -90,4 +90,4 @@ function resetGame() {
 }
 
 const resetButton = document.getElementById('resetButton');
-resetButton.addEventListener('click', resetGame, false);
+resetButton.addEventListener('click', Сброс, false);
