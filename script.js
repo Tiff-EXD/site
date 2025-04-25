@@ -79,7 +79,7 @@ function checkForWinOrDraw() {
   }
 }
 
-function resetGame() {
+function Сброс() {
   gameBoard = ['', '', '', '', '', '', '', '', ''];
   gameActive = true;
   currentPlayer = 'X';
@@ -90,4 +90,4 @@ function resetGame() {
 }
 
 const resetButton = document.getElementById('resetButton');
-resetButton.addEventListener('click', resetGame, false);
+resetButton.addEventListener('click', Сброс, false);
