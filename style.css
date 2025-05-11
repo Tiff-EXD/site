@@ -10,7 +10,7 @@ body {
   color: #333;
 }
 
-#tic-tac-toe-board {
+#крестики-нолики {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
