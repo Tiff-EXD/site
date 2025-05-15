@@ -90,4 +90,4 @@ function resetGame() {
 }
 
 const resetButton = document.getElementById('resetButton');
-resetButton.addEventListener('click', resetGame, false);
+resetButton.addEventListener('click', Сброс, false);
