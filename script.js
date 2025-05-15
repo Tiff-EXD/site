@@ -79,7 +79,7 @@ function checkForWinOrDraw() {
   }
 }
 
-function resetGame() {
+function Сброс() {
   gameBoard = ['', '', '', '', '', '', '', '', ''];
   gameActive = true;
   currentPlayer = 'X';
